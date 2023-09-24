@@ -1,0 +1,101 @@
+/*
+ * Globals
+ */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+ * Base structure
+ */
+
+/* body {}*/
+
+
+/*
+ * Header
+ */
+.banner-wrap {
+  background-image: url(./assets/Profile\ picture.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+.overlay {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 60%;
+  position: absolute;
+  top: 0;
+}
+
+.overlay {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 50%;
+  position: absolute;
+  top: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+.btn-pink {
+  background-color: rgba(93, 3, 90);
+  color: white;
+}
+
+
+.bi-instagram {
+  color:rgb(156, 65, 121);
+}
+.bi-linkedin {
+  color:rgb(156, 65, 121);
+}
+.bi-github {
+  color:rgb(156, 65, 121);
+}
+.bi-whatsapp {
+  color:rgb(156, 65, 121);
+}
+
+#Contact {
+  background-color: rgba(104, 16, 101, 0.267);
+}
+
+.scrolling {
+  background: rgba(0, 0, 0, 0.307);
+  opacity: 90%;
+  transition: all 0,5s;
+}
+
+.bg-pink {
+  background-color: rgba(156, 65, 121, 0.503);
+}

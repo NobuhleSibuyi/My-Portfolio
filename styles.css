@@ -19,9 +19,9 @@
  * Header
  */
 .banner-wrap {
-  background-image: url(./assets/Profile\ picture.jpg);
-  background-size: cover; 
-  background-repeat: no-repeat;
+  /* background-image: url(./assets/Profile\ picture01.jpg); */
+  background-size: contain;
+  background-repeat: repeat-x; /*repeating background pic 3 times on x-axis*/
   background-position: center;
   position: relative;
   z-index: 1;

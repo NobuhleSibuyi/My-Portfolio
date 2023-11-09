@@ -19,13 +19,14 @@
  * Header
  */
 .banner-wrap {
-  /* background-image: url(./assets/Profile\ picture01.jpg); */
-  background-size: contain;
-  background-repeat: repeat-x; /*repeating background pic 3 times on x-axis*/
+  background-image: url(./assets/earth\ bckground\ trans.png);
+  background-size: cover;
+  background-repeat: no-repeat; /*repeating background pic 3 times on x-axis*/
   background-position: center;
   position: relative;
   z-index: 1;
 }
+
 .overlay {
   z-index: -1;
   height: 100%;
@@ -67,6 +68,48 @@
   color: #fff;
   border-bottom-color: #fff;
 }
+
+section {
+  background-color: rgb(36, 22, 47);
+}
+
+.card {
+  background-color: rgb(66,44,83);
+  color: #fff;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: grey;
+  /* padding: 50px; */
+  /* background-color: green; */
+  transition: transform .2s; /* Animation */
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.col-md-6 h1 {
+  background-color: purple;
+  border-bottom: 3px solid #fff;
+  border-radius: 160px;
+  padding: 5px 0 15px 22px;
+  text-align: center;
+  width: 40%;
+  height: 20%;
+}
+
+.container h1 {
+  background-color: purple;
+  border-bottom: 3px solid #fff;
+  border-radius: 160px;
+  padding: 5px 20px 15px 22px;
+  text-align: center;
+  width: 40%;
+  height: 20%;
+  /* margin-left: 400px; */
+  margin: 0;
+}
 .btn-pink {
   background-color: rgba(93, 3, 90);
   color: white;
@@ -87,7 +130,7 @@
 }
 
 #Contact {
-  background-color: rgba(104, 16, 101, 0.267);
+  background-color: rgba(97, 90, 102, 0.267);
 }
 
 .scrolling {
@@ -97,5 +140,5 @@
 }
 
 .bg-pink {
-  background-color: rgba(156, 65, 121, 0.503);
+  background-color: rgba(78, 38, 81, 0.503);
 }

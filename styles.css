@@ -78,16 +78,14 @@ section {
   color: #fff;
 }
 
-.card:hover {
+/* .card:hover {
   cursor: pointer;
   background-color: grey;
-  /* padding: 50px; */
-  /* background-color: green; */
-  transition: transform .2s; /* Animation */
+  transition: transform .2s;
   width: 300px;
   height: 300px;
   margin: 0 auto;
-}
+} */
 
 .col-md-6 h1 {
   background-color: purple;
